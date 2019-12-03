@@ -12,7 +12,7 @@ class App extends Component {
     currentUser: null
   };
 
-  unsubscribeFromAuth = null;
+ 
 
  
   render() {
