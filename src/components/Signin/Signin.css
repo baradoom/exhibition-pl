@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.bara {
+  color: white;
+  margin-left: 640px;
+  font-size: 42px;
+  padding-top: 140px;
+  display: flex;
+  font-weight: 900;
+}
+
+h2 {
+  margin-top: -70px;
+  color: white;
+}
+
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 160px;
+  margin-left: 640px;
+}
+
+.sign-in .title {
+  margin: 10px 0;
+}
+
+.sign-in .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  text-align: center;
+}
+
+.center {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+ @media only screen and (max-width: 800px) { 
+
+    }
+
+     @media only screen and (max-width: 400px) {
+  .bara {
+     margin-left: 60px;
+  }
+
+  .sign-in {
+    margin-left: 60px;
+    margin-top: 75px;
+    font-size: 10px;
+  }
+     }

@@ -1,0 +1,23 @@
+.contact-main {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+
+  .contact {
+    width: 500px;
+    align-content: center;
+    margin-left: 300px;
+  }
+
+  .center {
+    width: 100%;
+  }
+}
+
+h1 {
+  margin-left: 200px;
+  text-align: center;
+}

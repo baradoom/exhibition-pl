@@ -1,0 +1,40 @@
+.custom-button-p {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 30px;
+  background-color: crimson;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+
+ @media only screen and (max-width: 800px) { 
+  
+    }
+
+     @media only screen and (max-width: 400px) {
+   .custom-button-p {
+   width: 180px;
+   font-size: 12px;
+   margin-left: -100px;
+   margin-top: -10px;
+   cursor: pointer;
+
+  
+}
+     }

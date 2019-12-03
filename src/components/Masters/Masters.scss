@@ -1,0 +1,143 @@
+.contact-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.masters {
+  width: 126vw;
+  height: 35%;
+}
+
+.wystawa {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: -850px;
+  margin-left: -500px;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.elements {
+  padding-top: 100px;
+  padding-left: 30px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  color: red;
+  font-size: 20px;
+}
+
+.exhibit {
+  color: grey;
+  font-size: 20px;
+}
+
+.april {
+  color: red;
+  font-size: 30px;
+}
+
+.nowa {
+  color: black;
+  font-size: 40px;
+}
+
+
+
+ @media only screen and (max-width: 800px) { 
+
+ 
+    }
+
+     @media only screen and (max-width: 400px) {
+
+       .masters {width: 375px;
+       height: 250px;
+       top: 0px;
+    } 
+
+    .elements {
+      padding-top: 100px;
+     padding-left: 30px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+   margin: 15px auto;
+  color: red;
+  font-size: 16px;
+  margin-top:-75px;
+    }
+
+.contact-main {
+  margin-left: -420px;
+  overflow-x: hidden;
+}
+.buttons {
+  width: 200px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.wystawa {
+  margin-top: 10px;
+  margin-left: -80px;
+  position: block;
+
+}
+
+.nowa {
+
+width: 140px;
+height: 84px;
+left: 13px;
+margin-top: -10px;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+}
+
+.exhibit {
+  margin-top: 5px;
+  width: 72px;
+height: 18px;
+left: 13px;
+
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+}
+
+.exhibit .opos {
+  margin-top: -10px;
+}
+.april {
+  width: 253px;
+height: 36px;
+left: 13px;
+margin-top: -15px;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+}
+    }

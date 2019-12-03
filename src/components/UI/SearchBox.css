@@ -1,0 +1,26 @@
+.searchdrawer {
+  display: flex;
+  left: 0px;
+  right: 10px;
+  top: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 200px;
+
+  background: #ff473a;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+ @media only screen and (max-width: 800px) { 
+  .searchdrawer {
+ 	width: 160px;
+ }
+    }
+
+     
+     @media only screen and (max-width: 400px) {
+    .searchdrawer {
+ 	width: 180px;
+ }
+   }

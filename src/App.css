@@ -1,0 +1,16 @@
+
+.Card {
+  width: 500px;
+  height: 400px;
+}
+
+.Card-img {
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
